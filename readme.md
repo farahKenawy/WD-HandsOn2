@@ -4,30 +4,24 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/zyx-0314/">
-  <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+  <a href="https://github.com/farahKenawy">
+    <img src="/assets/img/logo.png" alt="AceCoffee" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">HandsOn 2</h3>
 </div>
-<!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+Develop a visually appealing website to display uniquely designed heroes and cards using pure HTML and CSS. Include both static and animated versions for an engaging user experience.
 </div>
 
 <br />
 
-<!-- TODO: Change the zyx-0314 into your github username  -->
-<!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=farahKenawy/WD-HandsOn2)
 
 ---
 
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -55,28 +49,24 @@
 
 ## Overview
 
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
+Develop a visually appealing website to display uniquely designed heroes and cards using pure HTML and CSS. Include both static and animated versions for an engaging user experience. Ensure the site is well-structured, deployed online, and update the README with detailed project information.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+Overview:
+- The creation of Hero Designs
+- Creation of Cards
+- The exploration and techniques using HTML and CSS
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+Heroes and Cards:
+- 5 different static hero styles.
+- 5 different static card styles.
+- 5 different animated hero styles.
+- 5 different animated card styles.
+- This includes unique and distinctful designs.
 
 ### Technology
-<!-- TODO: List of Technology Used -->
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 1. Always use `WD-` in the front of the Title of the Project for the Subject followed by your custom naming.
@@ -90,7 +80,7 @@ Guiding Question:
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-HandsOn2
 └─ assets
 |   └─ css
 |   |   └─ style.css
@@ -113,8 +103,10 @@ WD-ProjectName
 ```
 
 ## Resources
-
-<!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+
+|Creating Responsive CSS Cards | Card Design HTM & CSS
+|In this video, we explore the process of designing and coding responsive CSS cards that will elevate your web design skills.|https://youtu.be/9FNNkzPBFcE?si=lLuvMvT3fexXx0vn|
+
+| How To Make Website Using HTML And CSS | Create Website Header Design
+ | In this video we will learn to create header section of website, where we will add navigation bar with Logo, menu link and a button. On this website background we will add full screen image with a dark color layer on the image. There will be title, description and search form on this website. | https://youtu.be/10Z6UIe7R1E?si=G7gYVa3IUbaj8_kH |

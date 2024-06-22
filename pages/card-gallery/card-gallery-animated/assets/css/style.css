@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Georgia', serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #4b3832;
+    background-color: #f7f1e3;
+    min-height: 100vh;
+}
+
+.header {
+    background-color: #4b3832;
+    color: white;
+    padding: 10px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+}
+
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav a, .nav .dropdown > span {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.nav a:hover, .nav .dropdown:hover > span {
+    background-color: #bc9057;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4b3832;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #bc9057;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Card 1: Ripple Effect Card */
+.card.ripple-card {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.card.ripple-card:hover {
+    transform: scale(1.05);
+}
+
+.card.ripple-card .card-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card.ripple-card .card-image {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.card.ripple-card .ripple-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 80%);
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.6s ease-in-out;
+}
+
+.card.ripple-card:hover .ripple-overlay {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.card.ripple-card .card-title {
+    font-size: 1.5em;
+    color: #6f4e37;
+    margin-top: 15px;
+}
+
+.card.ripple-card .card-description {
+    font-size: 1em;
+    text-align: center;
+    padding: 0 20px;
+    color: #333;
+}
+
+/* Card 2: Sliding Reveal Card */
+.card.slide-card {
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.slide-card-inner {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+.card.slide-card:hover .slide-card-inner {
+    transform: translateY(-100%);
+}
+
+.slide-card .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+}
+
+.card.slide-card:hover .card-image {
+    opacity: 0.3;
+}
+
+.slide-card-content {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    transform: translateY(100%);
+    transition: transform 0.5s ease;
+}
+
+.card.slide-card:hover .slide-card-content {
+    transform: translateY(0);
+}
+
+.slide-card-content .card-title {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+}
+
+.slide-card-content .card-description {
+    font-size: 1em;
+}
+
+/* Card 3: Pop-out Card */
+.card.popout-card {
+    width: 280px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card.popout-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.popout-card .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.card.popout-card:hover .card-image {
+    opacity: 0.2;
+}
+
+.popout-card-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: #3a2811;
+}
+
+.card.popout-card:hover .popout-card-content {
+    opacity: 1;
+}
+
+.popout-card-content .card-title {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.popout-card-content .card-description {
+    font-size: 1em;
+}
+
+/* Card 4: Floating Card */
+.card.floating-card {
+    width: 260px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card.floating-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.floating-card .card-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.floating-card .card-title {
+    font-size: 1.6em;
+    color: #6f4e37;
+    margin: 15px 0;
+}
+
+.floating-card .card-description {
+    font-size: 1em;
+    color: #4b3832;
+    padding: 0 20px 20px;
+}
+
+/* Card 5: Shimmer Card */
+.card.shimmer-card {
+    width: 280px;
+    height: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.shimmer-card .card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.3s ease;
+}
+
+.shimmer-card:hover .card-image {
+    opacity: 0.3;
+}
+
+.shimmer-card .shimmer-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.card.shimmer-card:hover .shimmer-overlay {
+    opacity: 1;
+    animation: shimmer 1.5s infinite linear;
+}
+
+@keyframes shimmer {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(100%);}
+}
+
+.shimmer-card-content {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.shimmer-card-content .card-title {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.shimmer-card-content .card-description {
+    font-size: 1em;
+}
