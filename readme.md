@@ -112,3 +112,5 @@ WD-HandsOn2
 
 | How To Make Website Using HTML And CSS | Create Website Header Design
  | In this video we will learn to create header section of website, where we will add navigation bar with Logo, menu link and a button. On this website background we will add full screen image with a dark color layer on the image. There will be title, description and search form on this website. | https://youtu.be/10Z6UIe7R1E?si=G7gYVa3IUbaj8_kH |
+
+ | Pinterest | Images & Icons | https://ph.pinterest.com/ |
