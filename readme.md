@@ -51,13 +51,15 @@ Develop a visually appealing website to display uniquely designed heroes and car
 
 Develop a visually appealing website to display uniquely designed heroes and cards using pure HTML and CSS. Include both static and animated versions for an engaging user experience. Ensure the site is well-structured, deployed online, and update the README with detailed project information.
 
-Overview:
-- The creation of Hero Designs
-- Creation of Cards
-- The exploration and techniques using HTML and CSS
+Guiding Question:
+- What is the project
+- Whats the purpose
+- What are key components
+- What technology used and how it is used
 
 ### Key Components
 Heroes and Cards:
+- Multiple Page website
 - 5 different static hero styles.
 - 5 different static card styles.
 - 5 different animated hero styles.
