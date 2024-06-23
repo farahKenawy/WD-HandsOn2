@@ -100,11 +100,7 @@ WD-HandsOn2
 
 ## Resources
 | Title | Purpose | Link |
-
-|Creating Responsive CSS Cards | Card Design HTM & CSS
-|In this video, we explore the process of designing and coding responsive CSS cards that will elevate your web design skills.|https://youtu.be/9FNNkzPBFcE?si=lLuvMvT3fexXx0vn|
-
-| How To Make Website Using HTML And CSS | Create Website Header Design
- | In this video we will learn to create header section of website, where we will add navigation bar with Logo, menu link and a button. On this website background we will add full screen image with a dark color layer on the image. There will be title, description and search form on this website. | https://youtu.be/10Z6UIe7R1E?si=G7gYVa3IUbaj8_kH |
-
- | Pinterest | Images & Icons | https://ph.pinterest.com/ |
+|-|-|-|
+| Creating Responsive CSS Cards, Card Design HTM & CSS | In this video, we explore the process of designing and coding responsive CSS cards that will elevate your web design skills. | https://youtu.be/9FNNkzPBFcE?si=lLuvMvT3fexXx0vn |
+| In this video we will learn to create header section of website, where we will add navigation bar with Logo, menu link and a button. On this website background we will add full screen image with a dark color layer on the image. There will be title, description and search form on this website | https://youtu.be/10Z6UIe7R1E?si=G7gYVa3IUbaj8_kH |
+| Pinterest | Images & Icons | https://ph.pinterest.com/ |
