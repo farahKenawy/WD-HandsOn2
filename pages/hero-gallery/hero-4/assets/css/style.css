@@ -127,6 +127,7 @@ body {
 
 .hero-content {
     text-align: center;
+    justify-content: center;
     z-index: -1;
     color: white;
     max-width: 600px;
