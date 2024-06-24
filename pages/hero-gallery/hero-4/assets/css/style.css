@@ -112,7 +112,7 @@ body {
 }
 
 .hero-background {
-    background-image: url('/pages/hero-gallery/hero-4/assets/img/bg-coffee.jpg');
+    background-image: url('../img/bg-coffee.jpg');
     background-position: center;
     background-size: cover;
     position: absolute;

@@ -109,7 +109,7 @@ body {
     background: linear-gradient(to bottom, #f3f2f0, #e0d8d0);
     position: relative;
     padding: 20px;
-    background-image: url('/pages/hero-gallery/hero-3/assets/img/bg-coffee.jpg');
+    background-image: url('../img/bg-coffee.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -92,7 +92,7 @@ body {
 
 /* Card 1: Classic Coffee Card with Image Overlay */
 .card.classic-card {
-    background-image: url('coffee1.jpg');
+    background-image: url('../img/bg-coffee.jpg');
     background-size: cover;
     background-position: center;
     border-radius: 10px;
